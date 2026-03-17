@@ -24,7 +24,6 @@ const Cart = ({ cart, setCart }) => {
       },
     });
   };
-
   const removeFromCart = (index) => {
     const newCart = cart.filter((_, i) => i !== index);
     setCart(newCart);

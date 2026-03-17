@@ -15,7 +15,6 @@ const SearchItem = ({ cart, setCart, items }) => {
 
     setFilterData(filtered);
   }, [term, items]);
-
   return (
     <>
       {filterData.length === 0 ? (

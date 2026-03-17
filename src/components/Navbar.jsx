@@ -498,5 +498,4 @@ const Navbar = ({ setData, cart }) => {
     </>
   );
 };
-
 export default Navbar;

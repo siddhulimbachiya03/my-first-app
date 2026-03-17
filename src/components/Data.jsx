@@ -179,6 +179,7 @@ export const items = [
     description: "MSI Katana 15 HX (Model: B14WEK-438IN)",
     price: "99990",
   },
+
   {
     id: 20,
     category: "laptops",

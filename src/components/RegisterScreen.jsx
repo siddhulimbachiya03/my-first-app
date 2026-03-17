@@ -19,7 +19,6 @@ const RegisterScreen = () => {
       .btn-inactive:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.08) !important; transform: translateY(-2px); }
       .ecart-link:hover { color: #2874f0 !important; text-decoration: underline !important; }
 
-      /* Animations */
       @keyframes fadeUp {
         0% { opacity: 0; transform: translateY(20px); }
         100% { opacity: 1; transform: translateY(0); }
@@ -54,7 +53,6 @@ const RegisterScreen = () => {
     }
 
     const savedUser = JSON.parse(localStorage.getItem("ecart_user"));
-
     if (
       savedUser &&
       savedUser.email === email &&

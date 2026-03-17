@@ -93,7 +93,6 @@ const OrderSuccess = () => {
       </div>
     );
   }
-
   const {
     orderId,
     items,

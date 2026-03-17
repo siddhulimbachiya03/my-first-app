@@ -123,7 +123,6 @@ const Payment = ({ cart, setCart }) => {
 
     .pr { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #f0f4f8 0%, #e8eef7 100%); min-height: 100vh; }
 
-    /* NAV */
     .pr-nav {
       background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%); 
       padding: 0 32px; height: 58px;
@@ -141,7 +140,6 @@ const Payment = ({ cart, setCart }) => {
       font-size: 11px; color: #00d4ff; font-weight: 600;
     }
 
-    /* STEPS */
     .pr-steps-bar { background: #fff; border-bottom: 1px solid #e0e7f1; padding: 13px 32px; }
     .pr-steps {
       max-width: 420px; margin: 0 auto;
@@ -171,7 +169,6 @@ const Payment = ({ cart, setCart }) => {
     .pr-step.sd .pr-dot-lbl,
     .pr-step.sa .pr-dot-lbl { color: #2a5298; }
 
-    /* BODY */
     .pr-body { padding: 24px 24px 56px; }
     .pr-layout {
       max-width: 1000px; margin: 0 auto;
@@ -186,7 +183,6 @@ const Payment = ({ cart, setCart }) => {
       .pr-steps-bar { padding: 12px 16px; }
     }
 
-    /* CARD */
     .pr-card { 
       background: #fff; 
       border: 1px solid #e0e7f1; 
@@ -213,12 +209,10 @@ const Payment = ({ cart, setCart }) => {
     .pr-head h2 { font-size: 14px; font-weight: 700; color: #1e3c72; }
     .pr-cbody { padding: 20px; }
 
-    /* SEC */
     .pr-sec { font-size: 10px; font-weight: 700; color: #7b8fa3; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 8px; margin-bottom: 13px; }
     .pr-sec::after { content: ''; flex: 1; height: 1px; background: #e8eef7; }
     .pr-sec svg { color: #6ba3d6; }
 
-    /* FIELDS */
     .pr-f { margin-bottom: 12px; }
     .pr-lbl { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; color: #4b5563; margin-bottom: 5px; }
     .pr-lbl svg { color: #a8b8cc; }
@@ -236,10 +230,8 @@ const Payment = ({ cart, setCart }) => {
     textarea.pr-inp { resize: vertical; min-height: 68px; line-height: 1.5; }
     .pr-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
-    /* DIVIDER */
     .pr-div { border: none; border-top: 1px solid #e8eef7; margin: 16px 0; }
 
-    /* PAYMENT */
     .pr-methods { display: flex; flex-direction: column; gap: 8px; }
     .pr-pm {
       display: flex; align-items: center; gap: 12px;
@@ -267,7 +259,6 @@ const Payment = ({ cart, setCart }) => {
     .pr-radio::after { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #fff; opacity: 0; transition: opacity .18s; }
     .pr-pm.on .pr-radio::after { opacity: 1; }
 
-    /* BUTTONS */
     .pr-acts { display: flex; gap: 10px; margin-top: 20px; }
     .pr-back {
       display: flex; align-items: center; gap: 5px;
@@ -296,7 +287,6 @@ const Payment = ({ cart, setCart }) => {
     .spin { animation: spin .8s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* SUMMARY */
     .pr-sticky { position: sticky; top: 72px; }
     .pr-item   { display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: 1px solid #e8eef7; }
     .pr-item:last-child { border-bottom: none; }
@@ -309,7 +299,6 @@ const Payment = ({ cart, setCart }) => {
     .pr-trust  { display: flex; align-items: center; gap: 7px; padding: 9px 18px; border-top: 1px solid #e8eef7; font-size: 11px; color: #4b5563; font-weight: 500; }
     .pr-trust svg { color: #059669; flex-shrink: 0; }
 
-    /* EMPTY */
     .pr-empty { max-width: 340px; margin: 80px auto; text-align: center; }
     .pr-empty-ico { width: 72px; height: 72px; background: #e8eef7; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; color: #6ba3d6; }
     .pr-empty h2  { font-size: 18px; font-weight: 700; color: #1e3c72; margin-bottom: 8px; }

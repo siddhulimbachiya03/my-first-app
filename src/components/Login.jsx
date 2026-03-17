@@ -66,7 +66,6 @@ const ECartLoginScreen = () => {
             <p style={s.subtitle}>
               Get access to your Orders, Wishlist and Recommendations
             </p>
-
             <form onSubmit={handleSubmit}>
               <div style={s.fieldGroup}>
                 <label style={s.label}>Enter Email/Mobile number</label>

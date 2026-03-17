@@ -15,7 +15,6 @@ import OrderSuccess from "./components/OrderSuccess";
 import RegisterScreen from "./components/RegisterScreen";
 
 const App = () => {
-
   const [data, setData] = useState(items);
   const [cart, setCart] = useState([]);
   const [wishlist, setWishlist] = useState([]);

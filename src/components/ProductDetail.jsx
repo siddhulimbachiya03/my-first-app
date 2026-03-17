@@ -43,7 +43,6 @@ const ProductDetail = ({ cart, setCart }) => {
       theme: "dark",
     });
   };
-
   return (
     <>
       <ToastContainer

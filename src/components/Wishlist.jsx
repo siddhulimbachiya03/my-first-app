@@ -7,7 +7,6 @@ const Wishlist = ({ wishlist, setWishlist }) => {
     const filtered = wishlist.filter((item) => item.id !== id);
     setWishlist(filtered);
   };
-
   return (
     <div className="container my-5">
       <h2 className="text-center mb-4">My Wishlist</h2>

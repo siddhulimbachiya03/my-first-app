@@ -56,7 +56,6 @@ const Product = ({
       });
     }
   };
-
   const addToCart = (product) => {
     if (!setCart) {
       toast.error("Cart function not available");
